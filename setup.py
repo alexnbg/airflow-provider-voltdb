@@ -18,8 +18,8 @@ setup(
         ]
     },
     license='Apache License 2.0',
-    packages=['voltdb', 'voltdb.hooks',
-              'voltdb.sensors', 'voltdb.operators'],
+    packages=['voltdb_provider', 'voltdb_provider.hooks',
+              'voltdb_provider.sensors', 'voltdb_provider.operators'],
     install_requires=['apache-airflow>=2.0'],
     setup_requires=['setuptools', 'wheel'],
     author='Data platform',
