@@ -4,8 +4,7 @@ def get_provider_info():
         "package-name": "airflow-provider-voltdb",  # Required
         "name": "VoltDB Airflow Provider",  # Required
         "description": "An airflow provider for connecting to VoltDB.",  # Required
-        "hook-class-names": ["voltdb.hooks.sample_hook.SampleHook"],
-        "extra-links": ["voltdb.operators.sample_operator.ExtraLink"],
+        "hook-class-names": ["voltdb_provider.hooks.sample_hook.SampleHook"],
+        "extra-links": ["voltdb_provider.operators.sample_operator.ExtraLink"],
         "versions": ["0.0.1"]  # Required
     }
-  
