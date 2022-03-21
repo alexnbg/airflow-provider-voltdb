@@ -24,5 +24,6 @@ setup(
     setup_requires=['setuptools', 'wheel'],
     author='Data platform',
     author_email='sample@sample.com',
+    url='none.no',
     python_requires='~=3.7'
 )
