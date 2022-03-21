@@ -23,5 +23,6 @@ setup(
     install_requires=['apache-airflow>=2.0'],
     setup_requires=['setuptools', 'wheel'],
     author='Data platform',
+    author_email='sample@sample.com',
     python_requires='~=3.7',
 )
