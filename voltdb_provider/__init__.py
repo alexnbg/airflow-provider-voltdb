@@ -8,7 +8,8 @@ def get_provider_info():
         ],
         "connection-types": [
             {
-                "voltdb": "voltdb_provider.hooks.base_voltdb_hook.BaseVoltDBHook"
+                "connection-type": "voltdb",
+                "hook-class-name": "voltdb_provider.hooks.base_voltdb_hook.BaseVoltDBHook"
             }
         ],
         # "extra-links": ["voltdb_provider.operators.sample_operator.ExtraLink"],
