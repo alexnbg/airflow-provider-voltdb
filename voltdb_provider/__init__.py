@@ -13,5 +13,5 @@ def get_provider_info():
             }
         ],
         # "extra-links": ["voltdb_provider.operators.sample_operator.ExtraLink"],
-        "versions": ["1.0.0"]
+        "versions": ["1.0.2"]
     }
